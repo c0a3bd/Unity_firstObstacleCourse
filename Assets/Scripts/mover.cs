@@ -4,20 +4,17 @@ using UnityEngine;
 
 public class mover : MonoBehaviour
 {
-    [SerializeField] float xValue = 0;
-    [SerializeField]  float yValue = 0.01f;
-    [SerializeField] int zValue = 0;
 
-    // Start is called before the first frame update
-    void Start()
-    {
+    public float speed = .01f;
 
-    }
 
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(xValue,yValue,zValue);
+        float xValue =  Input.GetAxis("Horizontal") * speed;
+        float zValue = Input.GetAxis("Vertical") * speed; 
+
+        transform.Translate(xValue, 0, zValue);
 
     }
 }
