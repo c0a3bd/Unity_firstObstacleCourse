@@ -8,8 +8,8 @@ public class ObjectHit : MonoBehaviour
 
     private void OnCollisionEnter(Collision other) 
     {
-        Debug.Log("You've hit the walls");
-
+        Debug.Log("You've hit a wall");
+        GetComponent<MeshRenderer>().material.color = Color.magenta;
     }
 
 
