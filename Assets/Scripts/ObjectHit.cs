@@ -8,7 +8,7 @@ public class ObjectHit : MonoBehaviour
 
     private void OnCollisionEnter(Collision other) 
     {
-        Debug.Log("You've hit a wall");
+        // added to prefab, not game individual objects
         GetComponent<MeshRenderer>().material.color = Color.magenta;
     }
 
