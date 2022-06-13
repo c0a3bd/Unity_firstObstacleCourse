@@ -9,7 +9,13 @@ public class ObjectHit : MonoBehaviour
     private void OnCollisionEnter(Collision other) 
     {
         // added to prefab, not game individual objects
-        GetComponent<MeshRenderer>().material.color = Color.magenta;
+
+        // limits color change to collision by player
+        if (other.gameObject.tag == "Blocky")
+        { 
+            GetComponent<MeshRenderer>().material.color = Color.magenta;
+        }
+        
     }
 
 
