@@ -1503,13 +1503,5 @@ PrefabInstance:
       propertyPath: m_Name
       value: DroppingBox
       objectReference: {fileID: 0}
-    - target: {fileID: 7272344198770460448, guid: 3b16855de71d13040ba22e37a0f16bce, type: 3}
-      propertyPath: m_UseGravity
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7272344198770460448, guid: 3b16855de71d13040ba22e37a0f16bce, type: 3}
-      propertyPath: m_IsKinematic
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b16855de71d13040ba22e37a0f16bce, type: 3}

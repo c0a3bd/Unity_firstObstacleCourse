@@ -8,7 +8,10 @@ public class scorer : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
-        hit++;
-        Debug.Log("Wall hit count: " + hit);
+        if (other.gameObject.tag != "ObjectHit")
+        {
+            hit++;
+            Debug.Log("Wall hit count: " + hit);
+        }
     }
 }

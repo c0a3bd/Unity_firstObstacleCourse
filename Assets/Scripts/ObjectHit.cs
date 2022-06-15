@@ -14,6 +14,7 @@ public class ObjectHit : MonoBehaviour
         if (other.gameObject.tag == "Blocky")
         { 
             GetComponent<MeshRenderer>().material.color = Color.magenta;
+            gameObject.tag = "ObjectHit";
         }
         
     }
