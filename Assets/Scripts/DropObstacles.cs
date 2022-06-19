@@ -6,7 +6,7 @@ public class DropObstacles : MonoBehaviour
 {
     MeshRenderer renderer;    // type and variable
     Rigidbody gravity;    // type and variable
-    [SerializeField] public float dropBlockInterval = 3f;
+    [SerializeField] float dropBlockInterval = 3f;
 
     // Start is called before the first frame update
     void Start()
