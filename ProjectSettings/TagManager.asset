@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Blocky
   - ObjectHit
+  - BlueBall
   layers:
   - Default
   - TransparentFX

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DropObstacles : MonoBehaviour
 {
-    MeshRenderer renderer;    // type and variable
+    new MeshRenderer renderer;    // type and variable
     Rigidbody gravity;    // type and variable
     [SerializeField] float dropBlockInterval = 3f;
 
